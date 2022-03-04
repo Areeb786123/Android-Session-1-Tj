@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Abe chal Name bhar 😂"
+        android:textColor="@color/black"
+        android:id="@+id/birthday"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="10dp"
+      ></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/submit"
+        android:text="submit"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"></Button>
+
+</LinearLayout>
